@@ -14,7 +14,6 @@ app = Flask(__name__)
 @app.route('/')
 def index():
     return render_template ('index.html')
-
 @app.route('/edit', methods=('GET','POST'))
 def edit(): 
     for dataPakan in inputPakan.find().sort([('_id', -1)]).limit(1)  :
