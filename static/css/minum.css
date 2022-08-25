@@ -10,85 +10,85 @@
     background: #D1BE9C;
 }
 
-.makan{
+.makan {
 
     position: absolute;
     width: 92px;
     height: 32px;
     left: 31px;
     top: 111px;
-    
+
     background: #F9EAE1;
     border-radius: 25px;
-    
+
 }
 
-.makan p{
+.makan p {
     position: absolute;
     width: 65px;
     height: 32spx;
     left: 7px;
-    margin: 0;    
-    
+    margin: 0;
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 150%;
     /* or 30px */
-    
+
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: #000000;
 }
 
-.minum{
+.minum {
     position: absolute;
     width: 92px;
     height: 32px;
     left: 134px;
     top: 111px;
-    
+
     background: #5D4954;
     border-radius: 25px;
 }
 
-.minum p{
+.minum p {
     position: absolute;
     width: 65px;
     height: 32px;
     left: 10px;
     margin: 0;
-    
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 150%;
     /* or 30px */
-    
+
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: #F9EAE1;
 
 }
 
-.suhu{
+.suhu {
     position: absolute;
     width: 92px;
     height: 32px;
     left: 237px;
     top: 111px;
-    
+
     background: #F9EAE1;
     border-radius: 25px;
 }
 
-.suhu p{
+.suhu p {
     position: absolute;
     width: 65px;
     height: 32px;
@@ -101,23 +101,18 @@
     font-size: 20px;
     line-height: 150%;
     /* or 30px */
-    
+
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: #000000;
 }
 
 .logo {
     position: absolute;
-width: 40px;
-height: 40px;
-left: 290px;
-top: 30px;
-
-background: url(image.png);
-border-radius: 4px;
-    
+    width: 40px;
+    height: 40px;
+    left: 290px;
+    top: 30px;
 }
-

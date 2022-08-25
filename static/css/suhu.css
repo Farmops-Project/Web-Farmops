@@ -10,100 +10,100 @@
     background: #D1BE9C;
 }
 
-.pakan{
+.pakan {
 
     position: absolute;
     width: 142px;
     height: 40px;
     left: 30px;
     top: 110px;
-    
+
     background: #F9EAE1;
     border-radius: 25px;
-    
+
 }
 
-.pakan p{
+.pakan p {
     position: absolute;
     width: 67px;
     height: 23px;
     margin: 0px;
     top: 9px;
     left: 37px;
-    
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 150%;
     /* or 27px */
-    
+
     display: flex;
     align-items: center;
     text-align: center;
-    
-    color: #5A3F2B ;
+
+    color: #5A3F2B;
 }
 
 
 
-.suhu{
+.suhu {
     position: absolute;
     width: 140px;
     height: 40px;
     left: 190px;
     top: 110px;
-    
+
     background: #5A3F2B;
     border-radius: 25px;
 }
 
-.suhu p{
+.suhu p {
     position: absolute;
     width: 59px;
     height: 21px;
     margin: 0px;
     top: 10px;
     left: 47px;
-    
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 150%;
     /* or 27px */
-    
+
     display: flex;
     text-align: center;
     align-items: center;
-    
+
     color: #F9EAE1;
 }
 
 
-.pengaturan h2{
+.pengaturan h2 {
     position: absolute;
     width: 198px;
     height: 21px;
     left: 81px;
     top: 166px;
     margin: 0px;
-    
+
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 150%;
     /* or 27px */
-    
+
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: #5A3F2B;
 }
 
-.boxLabel{
+.boxLabel {
     position: absolute;
     height: 44px;
     width: 300px;
@@ -117,7 +117,7 @@
     justify-content: space-between;
 }
 
-.label{
+.label {
     position: absolute;
     width: 200px;
     height: 32px;
@@ -129,7 +129,7 @@
     border: 0px;
 }
 
-.label p{
+.label p {
     position: absolute;
     left: 37px;
     top: 5px;
@@ -140,20 +140,20 @@
     font-size: 16px;
     line-height: 150%;
     /* or 24px */
-    
+
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: #5A3F2B;
 }
 
-.input{
+.input {
     position: absolute;
     width: 140px;
-    height: 32px;
+    height: 30px;
     right: 0px;
-    
+
 
     font-family: 'Poppins';
     font-style: normal;
@@ -161,19 +161,19 @@
     font-size: 16px;
     line-height: 150%;
     /* or 24px */
-    
+
     display: flex;
     align-items: center;
     text-align: center;
-    
+
     color: #D1BE9C;
-    
+
     background: #5A3F2B;
     border-radius: 25px;
     border: 0px;
 }
 
-.boxInput{
+.boxInput {
     position: absolute;
     height: 44px;
     width: 32px;
@@ -181,13 +181,13 @@
     right: 30px;
     padding: 0px;
     margin: 0px;
-    
+
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.submit{
+.submit {
     position: absolute;
     width: 50px;
     height: 50px;
@@ -195,26 +195,22 @@
     top: 545px;
     border-radius: 50%;
     border: 0;
-    
+
 
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 150%;  
+    line-height: 150%;
     background: #F9EAE1;
     color: #5A3F2B;
 }
 
 .logo {
     position: absolute;
-width: 40px;
-height: 40px;
-left: 290px;
-top: 30px;
+    width: 40px;
+    height: 40px;
+    left: 290px;
+    top: 30px;
 
-background: url(image.png);
-border-radius: 4px;
-    
 }
-
