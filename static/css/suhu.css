@@ -214,3 +214,105 @@
     top: 30px;
 
 }
+
+nav {
+    margin: auto;
+    height: 80px;
+    width: 360px;
+}
+
+.checkbtn {
+    position: absolute;
+    color: white;
+    left: 36.88px;
+    top: 36.75px;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+
+ul {
+    position: absolute;
+    width: 140px;
+    height: 150px;
+    margin: 0px;
+    padding-top: 60px;
+    padding-left: 36.88px;
+    padding-bottom: 36px;
+
+    border-radius: 0px 0px 20px 0px;
+    background: #F2E8CF;
+    top: -100%;
+    left: 0px;
+    transition: all .5s;
+
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav ul li {
+    line-height: 30px;
+}
+
+nav ul li a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+    color: #5A3F2B;
+}
+
+#check:checked~ul {
+    top: 0px;
+}
+
+.kotak{
+
+    position: absolute;
+    width: 90px;
+    height: 36px;
+    left: 240px;
+    top: 554px;
+
+    background: #5A3F2B;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.kotak p{
+
+    position: absolute;
+    width: 59px;
+    height: 21px;
+    margin: 0;
+    top: 7px;
+    
+ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    color: #F9EAE1;
+}

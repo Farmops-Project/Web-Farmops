@@ -41,6 +41,10 @@
 
         </div>
 
+        <a href="/"><div class="kotak">
+            <p>DONE</p>
+       </div></a>
+
         <div>
             <form method="post">
                 <div class="boxInput">
@@ -53,6 +57,24 @@
         <div>
             <img class="logo" src="{{ url_for('static',filename='img/logo.svg')}}" id="logo" width="80px" />
         </div>
+
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <img src={{ url_for('static',filename='img/toggle.svg')}}>
+            </label>
+            <ul>
+                <label for="check" class="checkbtn">
+                    <img src={{ url_for('static',filename='img/toggle.svg')}}>
+                </label><br>
+                <li>
+                    <a href="/">Informasi</a>
+                </li>
+                <li><a href="#">Laporan</a></li>
+                <li><a href="#">Akun</a></li>
+            </ul>
+        </nav>
+
     </div>
 </body>
 
