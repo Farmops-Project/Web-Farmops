@@ -27,9 +27,9 @@ def edit():
         jamPakan3 = dataPakan["jamPakan3"]
  
     if request.method == "POST":
-        pakan = request.form["jamPakan"]
-        pakan2 = request.form["jamPakan2"]
-        pakan3 = request.form["jamPakan3"]
+        pakan = request.form["jamPakan"] + ":00"
+        pakan2 = request.form["jamPakan2"] + ":00"
+        pakan3 = request.form["jamPakan3"] + ":00"
         inputPakan.insert_one({"jamPakan":pakan, "jamPakan2":pakan2,"jamPakan3":pakan3})
         return redirect(url_for('edit'))
         
