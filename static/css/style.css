@@ -157,6 +157,10 @@ nav ul li a {
     color: #5A3F2B;
 }
 
+.item{
+    border-radius: 10px;
+}
+
 #check:checked~ul {
     top: 0px;
 }

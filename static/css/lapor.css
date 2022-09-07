@@ -65,7 +65,10 @@
     height: 100%;
 }
 
-
+.item {
+    margin-bottom: 12px;
+    border-radius: 10px;
+}
 
 .tombol {
     position: absolute;
